@@ -5,11 +5,10 @@ It demonstrates skills in working with files, directories, processes, and making
 
 ---
 
-## 📂 Contents / Commands
-
-### 🛠️ File and Directory Management
+## 📂 Commands
 
 ```bash
+🛠️ File and Directory Management
 ~                # Home directory
 pwd              # Show current directory path
 mkdir test1      # Create a directory named test1
@@ -59,6 +58,7 @@ ps aux                # View all processes
 kill 1647             # Kill process with PID 1647
 ping rusau.net         # Check availability of a website
 ping -c 5 rusau.net    # Send 5 packets
+netstat -tuln          # View listening ports and active connections
 
 🛠️ HTTP Requests with cURL
 # GET request to find pets by status
